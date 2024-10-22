@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+#define SIZE 5
+
+int main() {
+    int arr[SIZE]; // Declare an array of a fixed size
+    int i, sum = 0;
+
+    // Initialize the array
+    printf("Enter %d elements:\n", SIZE);
+    for (i = 0; i < SIZE; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
+    // Calculate the sum of the array elements
+    for (i = 0; i < SIZE; i++) {
+        sum += arr[i];
+    }
+
+    // Display the elements of the array
+    printf("\nYou entered:\n");
+    for (i = 0; i < SIZE; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+
+    // Display the sum of the elements
+    printf("Sum of elements: %d\n", sum);
+
+    return 0;
+}
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B
